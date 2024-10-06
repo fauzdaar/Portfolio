@@ -1,40 +1,16 @@
-/* Reset some basic elements */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
+/* Light Theme */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
 }
 
-/* Header styles */
 header {
     background: #35424a;
     color: #ffffff;
-    padding: 20px 0;
+    padding: 20px;
     text-align: center;
 }
 
-nav ul {
-    list-style: none;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-/* Section styles */
 section {
     padding: 20px;
     margin: 20px 0;
@@ -43,49 +19,18 @@ section {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
-    color: #35424a;
+/* Dark Theme */
+body.dark {
+    background-color: #333;
+    color: #f4f4f4;
 }
 
-/* Skills and Projects */
-ul {
-    list-style-type: none;
-}
-
-.project {
-    margin: 20px 0;
-}
-
-/* Form styles */
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-form input, form textarea {
-    margin: 10px 0;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-button {
-    padding: 10px;
-    background: #35424a;
+header.dark {
+    background: #222;
     color: #ffffff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
 }
 
-button:hover {
-    background: #3a4956;
-}
-
-/* Footer styles */
-footer {
-    text-align: center;
-    padding: 10px 0;
-    background: #35424a;
-    color: #ffffff;
+section.dark {
+    background: #444;
+    color: #f4f4f4;
 }
