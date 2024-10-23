@@ -1,13 +1,6 @@
-// Select the button and body
-const themeToggleButton = document.getElementById('theme-toggle');
-const body = document.body;
-const header = document.querySelector('header');
-const section = document.querySelector('section');
+const toggleButton = document.getElementById('nav-toggle');
+const navLinks = document.getElementById('nav-links');
 
-// Add event listener to the button
-themeToggleButton.addEventListener('click', () => {
-    // Toggle the dark class on the body and other elements
-    body.classList.toggle('dark');
-    header.classList.toggle('dark');
-    section.classList.toggle('dark');
+toggleButton.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
 });
