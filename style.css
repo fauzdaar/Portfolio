@@ -117,6 +117,7 @@ header #overlay {
     display: none;
     position: fixed;
     top: 96px;
+    right: 96px;
     list-style-type: none;
     background-color: rgb(255, 214, 184);
 }
